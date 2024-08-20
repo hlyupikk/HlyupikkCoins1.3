@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#click-button {
+    width: 150px; /* Увеличенный размер кнопки */
+    height: 150px;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+}
+
+#click-button:hover {
+    opacity: 0.8;
+}
+
+#coin-count {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #333;
+}
+
+.shop-item {
+    display: inline-block;
+    width: 100px; /* Уменьшенный размер скинов */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.shop-item:hover {
+    background-color: #f9f9f9;
+}
+
+.shop-item img {
+    width: 80px; /* Уменьшенный размер изображений */
+    height: auto;
+    border-radius: 4px;
+}
+
+.shop-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Мобильная версия */
+@media (max-width: 600px) {
+    #click-button {
+        width: 120px; /* Увеличенный размер кнопки на мобильных */
+        height: 120px;
+    }
+
+    .shop-item {
+        width: 80px; /* Ещё меньший размер скинов на мобильных */
+    }
+
+    .shop-item img {
+        width: 60px; /* Меньший размер изображений на мобильных */
+    }
+}
